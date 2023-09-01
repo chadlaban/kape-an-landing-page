@@ -8,7 +8,7 @@ const AboutUs = () => {
             <span className='p-3'>are</span>
             <span className='p-3'>we?</span>  
         </p>
-        <article className='md:text-base sm:text-base text-lg justify-center my-auto p-6'>
+        <article className='md:text-lg sm:text-lg text-base justify-center my-auto p-6'>
             Welcome to KAPE-AN, where the rich coffee tradition of Baguio City, Philippines comes to life. Nestled amidst the lush landscapes and fertile lands passed down by our ancestors.
             Our journey began with a deep appreciation for the natural bounty that surrounded us. Baguio's unique microclimate and fertile soil have nurtured a vibrant array of coffee varieties, each with its distinct flavor profile and character.
             Driven by the desire to honor our heritage and make the most of our abundant coffee resources, we embarked on a mission to produce, sell, and share the exquisite flavors of Baguio coffee with the world. What started as a local endeavor soon grew into a global passion.
