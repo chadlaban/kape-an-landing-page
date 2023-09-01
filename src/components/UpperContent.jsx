@@ -25,7 +25,7 @@ const UpperContent = () => {
             </div>
         </div>
 
-        <div className='w-full py-16 px-4-border-b border-black-600 '>
+        <div className='w-full py-6 px-4-border-b border-black-600 '>
           <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 p-4'>
             <img className='mx-auto p-6' src={DrinkCoffee} alt='drink-your-coffee'/>
             <div className='mx-auto grid md:grid-cols-2'>
