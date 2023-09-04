@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div className='text-white mx-auto grid md:grid-cols-2 py-14'>
+    <div className='text-white max-w-[1240px] mx-auto grid md:grid-cols-2 py-14'>
         <p className='md:text-8xl sm:text-6xl text-5xl font-semibold my-auto uppercase flex flex-row md:flex-col text-center justify-center'>
             <span className='p-3'>who</span>
             <span className='p-3'>are</span>
