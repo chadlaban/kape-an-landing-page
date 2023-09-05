@@ -33,9 +33,9 @@ const UpperContent = () => {
                 Baguio in your cup of coffee.
               </p>
               <div className='my-auto mx-auto flex flex-row md:flex-col p-4'>
-                <img className='p-4' src={FacebookIcon} alt='facebook-icon' />
-                <img className='p-4' src={InstagramIcon} alt='instagram-icon' />
-                <img className='p-4' src={TwitterIcon} alt='twitter-icon' />
+                <img className='p-4 transition duration-300 ease-in-out transform hover:scale-110' src={FacebookIcon} alt='facebook-icon' />
+                <img className='p-4 transition duration-300 ease-in-out transform hover:scale-110' src={InstagramIcon} alt='instagram-icon' />
+                <img className='p-4 transition duration-300 ease-in-out transform hover:scale-110' src={TwitterIcon} alt='twitter-icon' />
               </div>
             </div>
           </div>
