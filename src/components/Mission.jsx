@@ -29,8 +29,8 @@ const Mission = () => {
                         </label>
                         <textarea id="feedback" name="feedback" value='' onChange='' className="mt-1 p-2 border rounded-md w-full" rows="4" required></textarea>
                     </div>
-                    <div className='p-2'>
-                        <button type="submit" className="bg-[#4D4E49] text-white font-light px-6 py-2 rounded-md hover:bg-[#4D4E49] scale-105">
+                    <div className='pb-10'>
+                        <button type="submit" className="bg-[#4D4E49] text-white font-light px-6 py-2 rounded-md hover:bg-[#4D4E49] scale-105 float-right">
                             Submit
                         </button>
                     </div>

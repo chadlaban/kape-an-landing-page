@@ -11,7 +11,7 @@ const Products = () => {
     <div className='text-white'>
         <h1 className='md:text-8xl sm:text-6xl text-5xl font-semibold text-center'>KAPE</h1>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 py-16 text-center'>
-            <div className='flex justify-center items-center flex-col space-y-12 mb-12'>
+            <div className='flex justify-center items-center flex-col space-y-12 mb-12 z-[-1] xl:z-0'>
                 <div>
                     <img className='mb-2 transition duration-300 ease-in-out transform hover:scale-110' src={ProductOne} alt='product_one'/>
                     <h6 className='font-light text-xl'>Baguio Bliss Brew</h6>
@@ -42,12 +42,10 @@ const Products = () => {
                 </div>
             </div>
         </div>
-        <div>
-            <div className="flex justify-center items-center">
-                <button className="bg-transparent cursor-default font-light border border-white-100 hover:bg-white-100 text-white-100 text-3xl py-4 px-6 rounded transition duration-300 ease-in-out transform hover:scale-105">
-                    More flavors coming soon!
-                </button>
-            </div>
+        <div className="flex justify-center items-center">
+            <button className="bg-transparent cursor-default font-light border border-white-100 hover:bg-white-100 text-white-100 text-3xl py-4 px-6 rounded transition duration-300 ease-in-out transform hover:scale-105 z-[-1] xl:z-0">
+                More flavors coming soon!
+            </button>
         </div>
     </div>
   )

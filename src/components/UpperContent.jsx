@@ -25,14 +25,14 @@ const UpperContent = () => {
             </div>
         </div>
 
-        <div className='w-full py-6 px-4-border-b border-black-600 '>
+        <div className='w-full py-6 px-4-border-b border-black-600'>
           <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 p-4'>
             <img className='mx-auto p-6' src={DrinkCoffee} alt='drink-your-coffee'/>
             <div className='mx-auto grid md:grid-cols-2'>
               <p className='md:text-10xl sm:text-8xl text-6xl font-semibold my-auto p-8 border-b border-white border-l'>
                 Baguio in your cup of coffee.
               </p>
-              <div className='my-auto mx-auto flex flex-row md:flex-col p-4'>
+              <div className='my-auto mx-auto flex flex-row md:flex-col p-4 z-[-1] md:z-0'>
                 <img className='p-4 transition duration-300 ease-in-out transform hover:scale-110' src={FacebookIcon} alt='facebook-icon' />
                 <img className='p-4 transition duration-300 ease-in-out transform hover:scale-110' src={InstagramIcon} alt='instagram-icon' />
                 <img className='p-4 transition duration-300 ease-in-out transform hover:scale-110' src={TwitterIcon} alt='twitter-icon' />
