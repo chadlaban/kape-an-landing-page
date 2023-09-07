@@ -1,21 +1,58 @@
-import React from 'react'
+import React from 'react';
+import FacebookIcon from '../imgs/fb-icon.png';
+import InstagramIcon from '../imgs/ig-icon.png';
+import TwitterIcon from '../imgs/tt-icon.png';
+import AddressIcon from '../imgs/house-solid.svg';
+import PhoneIcon from '../imgs/phone-solid.svg';
+import MailIcon from '../imgs/envelope-solid.svg';
 
 const Footer = () => {
   return (
-    <div className='bg-[#241811] text-white max-w-[1240px] mx-auto grid md:grid-cols-2 py-14'>
-        <p className='md:text-8xl sm:text-6xl text-5xl font-semibold my-auto uppercase flex flex-row md:flex-col text-center justify-center'>
-            <span className='p-3'>who</span>
-            <span className='p-3'>are</span>
-            <span className='p-3'>we?</span>  
-        </p>
-        <article className='md:text-lg sm:text-lg text-base justify-center my-auto p-6'>
-            Welcome to KAPE-AN, where the rich coffee tradition of Baguio City, Philippines comes to life. Nestled amidst the lush landscapes and fertile lands passed down by our ancestors.
-            Our journey began with a deep appreciation for the natural bounty that surrounded us. Baguio's unique microclimate and fertile soil have nurtured a vibrant array of coffee varieties, each with its distinct flavor profile and character.
-            Driven by the desire to honor our heritage and make the most of our abundant coffee resources, we embarked on a mission to produce, sell, and share the exquisite flavors of Baguio coffee with the world. What started as a local endeavor soon grew into a global passion.
-            From the picturesque coffee farms to your cup, we are involved in every step of the journey. We carefully select, roast, and package our coffee to ensure that the unique flavors of Baguio are delivered to you at their peak. 
-            Your support allows us to continue our tradition of producing exceptional coffee while contributing to the prosperity of our local communities.
-            Join us in savoring the essence of Baguio, one cup at a time.
-        </article>
+    <div className='bg-[#241811] text-white mx-auto grid md:grid-cols-2 py-14'>
+        <div className='flex flex-col text-center'>
+          <p className='md:text-8xl sm:text-6xl text-5xl font-semibold my-auto uppercase flex flex-row md:flex-col text-center justify-center'>
+              KAPE-AN 
+          </p>
+          <div className='space-x-4 pt-2 m-2'>
+            <span>Home</span><span>|</span>
+            <span>About Us</span><span>|</span>
+            <span>Products</span><span>|</span>
+            <span>Contact</span>
+          </div>
+          <div className='mx-auto flex flex-row p-4'>
+            <img className='p-4 transition duration-300 ease-in-out transform hover:scale-110' src={FacebookIcon} alt='facebook-icon' />
+            <img className='p-4 transition duration-300 ease-in-out transform hover:scale-110' src={InstagramIcon} alt='instagram-icon' />
+            <img className='p-4 transition duration-300 ease-in-out transform hover:scale-110' src={TwitterIcon} alt='twitter-icon' />
+          </div>
+        </div>
+        <div className='my-auto grid md:grid-cols-2 space-y-6 md:space-y-0'>
+          <div className='mx-auto'>
+            <h6 className='text-xl text-center md:text-left'>Contact Us</h6>
+            <div className='mx-auto text-sm font-thin mt-4 space-y-3'>
+              <div className='flex items-center mr-4'>
+                <img className='mr-2 w-4 md:w-5' src={AddressIcon} alt='business-address' />
+                <span>#0000 Proin sollicitudin risus vel, justo auctor 01 Posuere.</span>
+              </div>
+              <div className='flex items-center mr-4'>
+                <img className='mr-2 w-4 md:w-5' src={PhoneIcon} alt='business-address' />
+                <span>(123) 012-3456-78</span>
+              </div>
+              <div className='flex items-center mr-4'>
+                <img className='mr-2 w-4 md:w-5' src={MailIcon} alt='business-address' />
+                <span>kape-an@email.com</span>
+              </div>
+            </div>
+          </div>
+          <div className='mx-auto'>
+            <h6 className='text-xl'>Services</h6>
+            <ul className='text-sm space-y-3 mt-4 font-thin'>
+              <li>Custom Flavors</li>
+              <li>Delivery</li>
+              <li>Supplier</li>
+              <li>Careers</li>
+            </ul>
+          </div>
+        </div>
     </div>
   )
 }
