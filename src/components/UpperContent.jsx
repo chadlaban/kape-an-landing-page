@@ -8,7 +8,7 @@ import TwitterIcon from '../imgs/tt-icon.png';
 
 const UpperContent = () => {
   return (
-    <div className='text-white'>
+    <div className='text-white' id='home'>
         <div className='bg-black h-[600px] w-full bg-cover bg-center relative z-[-1]'>
             <div className='text-center justify-center'>
                 <img src={CityView} className='w-full h-full object-cover absolute' alt='upper-content-bg'/>
@@ -25,7 +25,7 @@ const UpperContent = () => {
             </div>
         </div>
 
-        <div className='w-full py-6 px-4-border-b border-black-600'>
+        <div className='w-full py-6 px-4-border-b border-black-600' id='kape-an'>
           <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 p-4'>
             <img className='mx-auto p-6' src={DrinkCoffee} alt='drink-your-coffee'/>
             <div className='mx-auto grid md:grid-cols-2'>

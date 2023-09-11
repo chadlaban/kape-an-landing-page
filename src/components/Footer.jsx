@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-scroll';
 import FacebookIcon from '../imgs/fb-icon.png';
 import InstagramIcon from '../imgs/ig-icon.png';
 import TwitterIcon from '../imgs/tt-icon.png';
@@ -8,16 +9,16 @@ import MailIcon from '../imgs/envelope-solid.svg';
 
 const Footer = () => {
   return (
-    <div className='bg-[#241811] text-white mx-auto grid md:grid-cols-2 py-14'>
+    <div className='bg-[#241811] text-white mx-auto grid md:grid-cols-2 py-14' id='contact'>
         <div className='flex flex-col text-center'>
           <p className='md:text-8xl sm:text-6xl text-5xl font-semibold my-auto uppercase flex flex-row md:flex-col text-center justify-center'>
               KAPE-AN 
           </p>
           <div className='space-x-4 pt-2 m-2'>
-            <span>Home</span><span>|</span>
-            <span>About Us</span><span>|</span>
-            <span>Products</span><span>|</span>
-            <span>Contact</span>
+            <span className='w-[150px] cursor-pointer'><Link to="home" spy={true} smooth={true} offset={50} duration={500}>Home</Link></span><span>|</span>
+            <span className='w-[150px] cursor-pointer'><Link to="about" spy={true} smooth={true} offset={50} duration={500}>About Us</Link></span><span>|</span>
+            <span className='w-[150px] cursor-pointer'><Link to="products" spy={true} smooth={true} offset={50} duration={500}>Products</Link></span><span>|</span>
+            <span className='w-[150px] cursor-pointer'><Link to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link></span>
           </div>
           <div className='mx-auto flex flex-row p-4'>
             <img className='p-4 transition duration-300 ease-in-out transform hover:scale-110' src={FacebookIcon} alt='facebook-icon' />

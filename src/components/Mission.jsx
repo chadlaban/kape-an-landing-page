@@ -13,7 +13,7 @@ const Mission = () => {
     };
 
     return (
-        <div className='text-white max-w-[1240px] mx-auto grid md:grid-cols-2 py-14'>
+        <div className='text-white max-w-[1240px] my-8 mx-auto grid md:grid-cols-2 py-14'>
             <div className='text-center'>
                 <h1 className='mt-4 md:text-8xl sm:text-6xl text-5xl font-semibold'>Our Mission</h1>
                 <article className='md:text-lg sm:text-lg text-base justify-center my-auto p-6'>

@@ -8,7 +8,7 @@ import ProductSix from '../imgs/products/product_6.png';
 
 const Products = () => {
   return (
-    <div className='text-white'>
+    <div className='text-white' id='products'>
         <h1 className='md:text-8xl sm:text-6xl text-5xl font-semibold text-center'>KAPE</h1>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 py-16 text-center'>
             <div className='flex justify-center items-center flex-col space-y-12 mb-12 z-[-1] xl:z-0'>
