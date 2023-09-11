@@ -44,7 +44,7 @@ const Navbar = () => {
                     <Link to="about" spy={true} smooth={true} offset={-250} duration={500} onClick={handleNavItemClick}>About Us</Link>
                 </li>
                 <li className='p-6 border-b border-white-800'>
-                    <Link to="products" spy={true} smooth={true} offset={-180} duration={500} onClick={handleNavItemClick}>Products</Link>
+                    <Link to="products" spy={true} smooth={true} offset={-90} duration={500} onClick={handleNavItemClick}>Products</Link>
                 </li>
                 <li className='p-6 border-b border-white-800'>
                     <Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={handleNavItemClick}>Contact</Link>
