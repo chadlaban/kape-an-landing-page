@@ -20,8 +20,8 @@ const Mission = () => {
                     At KAPE-AN, our mission is to preserve and celebrate the rich coffee tradition of Baguio City, Philippines, by sharing its unique flavors and character with coffee lovers around the world. We are dedicated to honoring our heritage, sustaining our local communities, and ensuring the highest quality in every step of the coffee journey, from farm to cup. With your support, we strive to provide a taste of Baguio's exquisite coffee, one cup at a time, while fostering prosperity and sustainability for our cherished region.
                 </article>
             </div>
-            <div className='max-w-[1240px] mx-20 mt-4'>
-                <form onSubmit='' className="bg-[#D7D8D7] text-[#000300] rounded-xl space-y-6 p-6 text-xl">
+            <div className='max-w-[1240px] mx-20 mt-4 z-[-2]'>
+                <form onSubmit='' className="bg-[#D7D8D7] text-[#000300] rounded-xl space-y-6 p-6 text-xl ">
                     <div className=''>
                         <label htmlFor="fullName" className="block text-[#000300]">
                             Full Name:

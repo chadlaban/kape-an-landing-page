@@ -9,7 +9,7 @@ import TwitterIcon from '../imgs/tt-icon.png';
 const UpperContent = () => {
   return (
     <div className='text-white' id='home'>
-        <div className='bg-black h-[600px] w-full bg-cover bg-center relative z-[-1]'>
+        <div className='bg-black h-[600px] w-full bg-cover bg-center absolute z-[-1]'>
             <div className='text-center justify-center'>
                 <img src={CityView} className='w-full h-full object-cover absolute' alt='upper-content-bg'/>
                 <div className='absolute inset-0 flex items-center justify-center'>
@@ -25,10 +25,10 @@ const UpperContent = () => {
             </div>
         </div>
 
-        <div className='w-full py-6 px-4-border-b border-black-600' id='kape-an'>
+        <div className='w-full py-6 px-4-border-b border-black-600 relative z-[-1]' id='kape-an'>
           <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 p-4'>
-            <img className='mx-auto p-6' src={DrinkCoffee} alt='drink-your-coffee'/>
-            <div className='mx-auto grid md:grid-cols-2'>
+            <img className='mx-auto p-6 mt-[400px] w-full' src={DrinkCoffee} alt='drink-your-coffee'/>
+            <div className='mx-auto grid md:grid-cols-2 mt-0 md:mt-[590px]'>
               <p className='md:text-10xl sm:text-8xl text-6xl font-semibold my-auto p-8 border-b border-white border-l'>
                 Baguio in your cup of coffee.
               </p>
