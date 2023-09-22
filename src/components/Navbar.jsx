@@ -34,7 +34,7 @@ const Navbar = () => {
         <div onClick={handleNav} className='block md:hidden'>
             {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20}/>}
         </div>
-        <div className={!nav ? 'fixed left-0 top-0 w-[30%] h-full border-r border-r-white-800 ease-out duration-500 bg-[#000300]' : 'fixed left-[-100%]'}>
+        <div className={!nav ? 'fixed left-0 top-0 w-[35%] h-full border-r border-r-white-800 ease-out duration-500 bg-[#000300]' : 'fixed left-[-100%]'}>
             <h1 className='w-full text-3xl font-bold m-8'><Link to="kape-an" spy={true} smooth={true} offset={-40} duration={500}>KAPE-AN</Link></h1>
             <ul className='uppercase p-2'>
                 <li className='p-6 border-b border-white-800'>
